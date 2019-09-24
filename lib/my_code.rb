@@ -17,6 +17,6 @@ else
   counter = 1 
   
   while counter < array.length do
-    
+    yield(num1, array[])
     
 end
