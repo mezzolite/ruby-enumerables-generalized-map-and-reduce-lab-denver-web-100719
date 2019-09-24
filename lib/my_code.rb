@@ -9,7 +9,7 @@ new
 end
 
 def reduce(array, starting_value = nil)
-  starting_value
+ if starting_value
   new = []
   counter = 0 
   
