@@ -17,6 +17,7 @@ else
   counter = 1 
   
   while counter < array.length do
-    yield(sum, array[counter])
+    sum = yield(sum, array[counter])
+    counter += 1 
     
 end
