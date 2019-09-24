@@ -15,4 +15,8 @@ def reduce(array, starting_value = nil)
 else
   num1 = array[0]
   counter = 1 
+  
+  while counter < array.length do
+    
+    
 end
