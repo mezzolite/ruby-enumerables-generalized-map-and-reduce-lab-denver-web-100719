@@ -20,5 +20,6 @@ end
   while counter < array.length do
     sum = yield(sum, array[counter])
     counter += 1 
-  end  
+  end 
+  sum
 end
